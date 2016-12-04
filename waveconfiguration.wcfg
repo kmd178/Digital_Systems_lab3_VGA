@@ -14,10 +14,11 @@
    <wave_markers>
       <marker time="66368110000000" label="" />
       <marker time="184357910000000" label="" />
-      <marker time="16672110000000" label="" />
       <marker time="17632110000000" label="" />
-      <marker time="17669910000000" label="" />
       <marker time="49696110000000" label="" />
+      <marker time="16351470000000" label="" />
+      <marker time="16352110000000" label="" />
+      <marker time="33024110000000" label="" />
    </wave_markers>
    <wvobject fp_name="/tb/VGA_RED" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">VGA_RED</obj_property>
@@ -78,6 +79,7 @@
    <wvobject fp_name="/tb/sys0/scaling_vertical_counter" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">scaling_vertical_counter[2:0]</obj_property>
       <obj_property name="ObjectShortName">scaling_vertical_counter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/sys0/virtual_out" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">virtual_out[20:0]</obj_property>
