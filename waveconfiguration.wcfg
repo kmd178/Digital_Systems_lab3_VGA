@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="15" />
+   <WVObjectSize size="19" />
    <wave_markers>
       <marker time="66368110000000" label="" />
       <marker time="184357910000000" label="" />
@@ -85,5 +85,23 @@
       <obj_property name="ElementShortName">virtual_out[20:0]</obj_property>
       <obj_property name="ObjectShortName">virtual_out[20:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/bram1/ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/bram1/DO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DO</obj_property>
+      <obj_property name="ObjectShortName">DO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/bram2/ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR[13:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/bram2/DO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DO</obj_property>
+      <obj_property name="ObjectShortName">DO</obj_property>
    </wvobject>
 </wave_config>

@@ -18,13 +18,13 @@ reg [9:0] count_pixels=0;   //first 96+16 pixel time calculation give an empty r
 reg [9:0] count_lines=0;	 //first 10+2 line calculations give and empty result
 //wire  currentpixel= count_lines*800 + count_pixels;
 reg [20:0] virtual_out=0;
-reg [18:0] scaled_image_out=0;
-wire [18:0] pixeldata=scaled_image_out;
+reg [13:0] scaled_image_out=0;
+wire [13:0] pixeldata=scaled_image_out;
 reg [2:0] scaling_counter=0;
 
-vga_testImage_BRAM_initialization_RED bram1(clk,pixeldata,VGA_RED);
-vga_testImage_BRAM_initialization_GREEN bram2(clk,pixeldata,VGA_BLUE);
-vga_testImage_BRAM_initialization_BLUE bram3(clk,pixeldata,VGA_GREEN);
+vga_testImage_BRAM_initialization_RED bram1(clk,pixeldata,1'b1,VGA_RED);
+vga_testImage_BRAM_initialization_GREEN bram2(clk,pixeldata,1'b1,VGA_BLUE);
+vga_testImage_BRAM_initialization_BLUE bram3(clk,pixeldata,1'b1,VGA_GREEN);
 
 
 
