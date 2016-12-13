@@ -10,7 +10,7 @@
          </top_modules>
       </db_ref>
    </db_ref_list>
-   <WVObjectSize size="19" />
+   <WVObjectSize size="18" />
    <wave_markers>
       <marker time="66368110000000" label="" />
       <marker time="184357910000000" label="" />
@@ -35,9 +35,28 @@
       <obj_property name="ElementShortName">VGA_BLUE</obj_property>
       <obj_property name="ObjectShortName">VGA_BLUE</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb/sys0/virtual_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">virtual_out[20:0]</obj_property>
+      <obj_property name="ObjectShortName">virtual_out[20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb/sys0/bram1/ADDR" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">ADDR[13:0]</obj_property>
       <obj_property name="ObjectShortName">ADDR[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/scaling_vertical_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scaling_vertical_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">scaling_vertical_counter[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/scaling_horizontal_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scaling_horizontal_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">scaling_horizontal_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sys0/scaled_image_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scaled_image_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">scaled_image_out[13:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/VGA_HSYNC" type="logic" db_ref_id="1">
@@ -60,10 +79,6 @@
       <obj_property name="ElementShortName">pixel_signal</obj_property>
       <obj_property name="ObjectShortName">pixel_signal</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb/BTN2" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">BTN2</obj_property>
-      <obj_property name="ObjectShortName">BTN2</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb/sys0/count_pixels" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">count_pixels[9:0]</obj_property>
       <obj_property name="ObjectShortName">count_pixels[9:0]</obj_property>
@@ -72,26 +87,6 @@
    <wvobject fp_name="/tb/sys0/count_lines" type="array" db_ref_id="1">
       <obj_property name="ElementShortName">count_lines[9:0]</obj_property>
       <obj_property name="ObjectShortName">count_lines[9:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/sys0/scaled_image_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">scaled_image_out[13:0]</obj_property>
-      <obj_property name="ObjectShortName">scaled_image_out[13:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/sys0/scaling_counter" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">scaling_counter[2:0]</obj_property>
-      <obj_property name="ObjectShortName">scaling_counter[2:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/sys0/scaling_vertical_counter" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">scaling_vertical_counter[2:0]</obj_property>
-      <obj_property name="ObjectShortName">scaling_vertical_counter[2:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb/sys0/virtual_out" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">virtual_out[20:0]</obj_property>
-      <obj_property name="ObjectShortName">virtual_out[20:0]</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/tb/sys0/bram1/DO" type="logic" db_ref_id="1">
